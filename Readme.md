@@ -118,7 +118,7 @@ End If
 Sub clear():
 For Each ws In Worksheets
 
-ws.Range("I1:I25000").ClearContents						'clearing all resutls  in all worksheets'
+ws.Range("I1:I25000").ClearContents						'clearing all resutls  in all worksheets'   ' Click Process button to run the script' 
 ws.Range("j1:j25000").ClearContents
 ws.Range("l1:l25000").ClearContents
 ws.Range("k1:k25000").ClearContents
